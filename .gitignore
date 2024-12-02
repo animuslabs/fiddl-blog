@@ -7,7 +7,6 @@ node_modules
 .output
 .data
 .env
-dist
 
 # Local Netlify folder
 .netlify
