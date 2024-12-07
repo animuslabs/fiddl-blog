@@ -1,14 +1,12 @@
 export default defineAppConfig({
-  logo: "/images/fiddlLogo.svg",
+  logo: "/images/logo.svg",
   url: "https://fiddl.art/blog",
-
-  theme: "mistral",
-
+  theme: "fiddl-blog",
   // The name of the blog itself
   name: "Fiddl.art Blog",
   avatar: "/images/avatar.jpg",
   // The description of the blog if any
-  description: "Fiddl.art blog is about AI art",
+  description: "Fiddl.Art blog is about AI art",
   socials: {
     twitter: "https://x.com/fiddlart",
     youtube: "https://www.youtube.com/@fiddlart",
@@ -57,9 +55,8 @@ export default defineAppConfig({
   ],
 
   menu: () => [
-    { name: "Home", path: "/" },
-    { name: "Documentation", path: "/about" },
-    { name: "Archives", path: "/archives" },
+    { name: "Fiddl.Art Home", path: "https://fiddl.art" },
+    // { name: "All Posts", path: "/archives" },
   ],
 
   robots: [
